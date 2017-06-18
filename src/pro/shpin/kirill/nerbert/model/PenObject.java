@@ -8,6 +8,8 @@ public class PenObject {
 	public List<PenPoint> points;
 	public int selected;
 
+	public boolean movingPoint = false;
+
 	public PenObject() {
 		points = new ArrayList<>();
 	}
